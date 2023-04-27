@@ -1,0 +1,32 @@
+.banner-container{
+  margin: 0 auto;
+  width: 900px;
+  margin-top: 100px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+}
+
+.banner {
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-container > p {
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+
+.banner-container > a {
+  text-decoration: none;
+  height: 50px;
+  width: 50px;
+  border: 2px solid rgb(114, 192, 190);
+  background-color: rgb(114, 192, 190);
+  color: whitesmoke;
+  padding: 16px 30px;
+  border-radius: 50px;
+  }
